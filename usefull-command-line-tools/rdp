@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read -p "Host IP :" MACHINE_IP
+read -p "Username :" USERNAME
+
+xfreerdp /v:$MACHINE_IP /u:$USERNAME /dynamic-resolution
